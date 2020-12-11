@@ -5,6 +5,8 @@
 #include <iostream>
 #include <string>
 
+#include "serie.h"
+
 using namespace std;
 
 class Plataforma{
@@ -17,7 +19,7 @@ public:
 
 	~Plataforma();
 
-	float getNombre();
+	string getNombre();
 	void setNombre(string nombre);
 
 	Serie getSerie();
